@@ -4,11 +4,13 @@ import { ChartsModule } from 'ng2-charts';
 
 import { AppComponent } from './app.component';
 import { GraphComponent } from './graph/graph.component';
+import { FormsComponent } from './forms/forms.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GraphComponent
+    GraphComponent,
+    FormsComponent
   ],
   imports: [
     BrowserModule,
